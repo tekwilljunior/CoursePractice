@@ -11,7 +11,7 @@ public class greet_me {
         this.whom = whom;
     }
      //Default action with no modification
-//Constructor_2 , modifying as requested in homework
+//Constructor_2
    public  greet_me(){
         this.greet = "Hello";
         this.whom = "Java";
