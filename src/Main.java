@@ -1,3 +1,4 @@
+import Optional_Homework.age_diff;
 import greetings.append;
 import greetings_1.append_1;
 import HelloJavaWorld.greet_me;
@@ -18,6 +19,11 @@ class greetv {
 //homework_4 package Lesson_4_homework
         Variables display_homework_from_package = new Variables();
         TaxCalculator total_cost = new TaxCalculator();
+
+        //invoke optional homework
+        age_diff compareAge = new age_diff();
+        compareAge.printAgeDiff(); //access package method via constructor
+
 
     }
 }
